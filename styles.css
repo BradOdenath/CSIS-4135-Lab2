@@ -33,8 +33,12 @@ header {
     border: 0px;
     padding: 0px;
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 25px;
+}
+
+.wrapper > div > h3 {
+    text-align: center;
 }
 
 #boxA {
@@ -127,7 +131,9 @@ a > p {
 }
 
 table {
-    width: 400px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 td {
