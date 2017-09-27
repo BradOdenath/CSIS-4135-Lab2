@@ -24,7 +24,7 @@ header {
     max-width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, lfr);
+    grid-template-columns: 42% 42% 16%;
     grid-gap: 0px;
     grid-auto-rows: minmmax(100px, auto);
 }
@@ -38,7 +38,7 @@ header {
 }
 
 #boxA {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(200, 200, 200);
 }
 
 #boxB {
@@ -107,10 +107,33 @@ header {
 
 .sideBar {
     grid-column: 3/4;
-    grid-row: 1/5;
+    grid-row: 1/7;
 }
 
 .bottomBox {
     grid-column: 3/4;
-    grid-row: 5/6;
+    grid-row: 6/7;
+    position: fixed;
+    left: 84%;
+    top: 74%;
+}
+
+a {
+    color: white;
+}
+
+a > p {
+    line-height: 0.5px;
+}
+
+table {
+    width: 400px;
+}
+
+td {
+    padding: 10px;
+}
+
+.timeBox {
+    width: 100px;
 }
